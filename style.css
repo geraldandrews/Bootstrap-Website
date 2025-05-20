@@ -85,8 +85,6 @@
     transform: rotate(0deg);
 }
 
-
-
 .dropdown .dropdown-menu {
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
@@ -145,11 +143,9 @@
   }
 }
 
-
-
 /* Header */
 #intro-example {
-    background: linear-gradient(rgba(0, 0, 0, 0.7)), url(../img/bg.jpeg) no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7)), url("../img/bg.jpeg") no-repeat center center/cover;
     height: calc(100vh - 56px);
 }
 
