@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" 
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Website</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-primary py-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" width="45" height="40"></a>
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="anchor" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="anchor" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="anchor" href="#footer">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+                        <ul class="dropdown-menu slideIn" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Link 1</a></li>
+                            <li><a class="dropdown-item" href="#">Link 2</a></li>
+                            <li><a class="dropdown-item" href="#">Link 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav sm-icons">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-facebook fa-lg"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-twitter fa-lg"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fab fa-youtube fa-lg"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="intro-example" class="p-5 text-center bg-image">
+        <div class="d-flex align-items-center justify-content-center h-100">
+            <div class="text-white">
+                <h1 class="mb-3">Welcome to Digital <span class="text-primary"> Creations </span></h1>
+                <h5 class="mb-4">Web Design and development solutions for you</h5>
+                <button class="btn btn-primary btn-lg my-4" data-bs-toggle="modal" data-bs-target="#started">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="py-5 px-3 text-center" id="about">
+        <h1 class="pb-5">Our Expertise and Passion</h1>
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col d-flex flex-column align-items-center">
+                    <i class="fas fa-laptop-code fa-5x"></i>
+                    <h3 class="pt-3">Website Development</h3>
+                </div>
+                <div class="col d-flex flex-column align-items-center">
+                    <i class="fas fa-mobile-alt fa-5x"></i>
+                    <h3 class="pt-3">Responsive Web Design</h3>
+                </div>
+                <div class="col d-flex flex-column align-items-center">
+                    <i class="fab fa-searchengin fa-5x"></i>
+                    <h3 class="pt-3">Search Engine Optimization</h3>
+                </div>
+            </div>
+            <div class="d-sm-flex pt-3">
+                <div>
+                    <img class="img-fluid p-3" src="img/img-1.webp" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid p-3" src="img/img-2.webp" alt="">
+                </div>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur cupiditate autem quod pariatur illo? Quia nemo
+               nulla architecto quam, eveniet perspiciatis esse dignissimos odio quaerat est doloremque temporibus! Obcaecati 
+               suscipit, repellat quos ut, eaque eligendi qui totam molestias ducimus quaerat veritatis consectetur fugit 
+               voluptate unde enim accusamus fuga tempore tenetur? Perferendis aspernatur quae qui dignissimos pariatur, 
+               eligendi minima, eos tenetur, amet quos sit incidunt nisi neque a quas magnam dolorem itaque? Fuga ipsam 
+               nostrum perferendis distinctio earum, eaque, natus inventore quod aliquid consequatur nam rem quis at? Quo 
+               aperiam provident beatae molestias recusandae, soluta, fuga tenetur, veritatis sit corporis optio.
+            </p>
+        </div>
+    </section>
+
+    <section class="px-3">
+        <h1 class="text-center">
+            What our clients say
+        </h1>
+        <div class="container mt-5">
+            <div class="row text-center g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <img class="img-fluid p-3" src="img/testimonial-1.jpeg" alt="">
+                            </div>
+                            <h3 class="card-title mb-3">Charles Green</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, tempora? Enim possimus 
+                                hic iste debitis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <img class="img-fluid p-3" src="img/testimonial-2.jpeg" alt="">
+                            </div>
+                            <h3 class="card-title mb-3">Alison Duncan</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim optio beatae provident ad, 
+                                laboriosam laudantium!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <img class="img-fluid p-3" src="img/testimonial-3.jpeg" alt="">
+                            </div>
+                            <h3 class="card-title mb-3">John Smith</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa provident officia a, aut nobis 
+                                possimus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <img class="img-fluid p-3" src="img/testimonial-4.jpeg" alt="">
+                            </div>
+                            <h3 class="card-title mb-3">Jane Hill </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. A reiciendis dolore et laborum placeat! Fugiat!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" id="projects">
+        <h1 class="text-center">Our Work</h1>
+        <div class="container">
+            <div class="d-sm-flex">
+                <div>
+                    <img class="img-fluid p-3" src="img/project-1.jpg" alt="">
+                    <h6 class="text-center">Dynamic Sports</h6>
+                </div>
+                <div>
+                    <img class="img-fluid p-3" src="img/project-2.jpg" alt="">
+                    <h6 class="text-center">Company Website</h6>
+                </div>
+                <div>
+                    <img class="img-fluid p-3" src="img/project-3.jpg" alt="">
+                    <h6 class="text-center">The Cabin Expo</h6>
+                </div>
+            </div>
+            <div class="d-sm-flex">
+                <div>
+                    <img class="img-fluid p-3" src="img/project-4.jpg" alt="">
+                    <h6 class="text-center">Techpros Corporation</h6>
+                </div>
+                <div>
+                    <img class="img-fluid p-3" src="img/project-5.jpg" alt="">
+                    <h6 class="text-center">Northwinds Housing</h6>
+                </div>
+                <div>
+                    <img class="img-fluid p-3" src="img/project-6.jpg" alt="">
+                    <h6 class="text-center">Xenia Tornado Research</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark text-light p-3">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="text-center mb-md-0">Sign Up For Our Newsletter</h3>
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter Email">
+                    <button class="btn btn-primary btn-lg" type="button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-primary text-light text-center" id="footer">
+        <section class="">
+            <div class="container text-center text-md-start">
+                <div class="row text-md-start py-3" >
+                    <div class="col-md-4 mx-auto g-4">
+                        <h6 class="text-uppercase fw-bold">
+                            <img src="img/logo.png" alt="logo" width="45" height="40">
+                            Digital Creations
+                        </h6>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, unde laboriosam vitae 
+                            repellat modi laborum?
+                        </p>
+                    </div>
+                    <div class="col-md-4 mx-auto g-4">
+                        <h6 class="text-uppercase fw-bold">Services</h6>
+                        <p>Website Design and Development </p>
+                        <p>Website Maintenance and Updates </p>
+                        <p>Website Hosting</p>
+                        <p>Search Engine Optimization</p>
+                    </div>
+                    <div class="col-md-4 mx-auto g-4">
+                        <h6 class="text-uppercase fw-bold">Contact Us</h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p><i class="fas fa-envelope me-3"></i>creations@email.com</p>
+                        <p><i class="fas fa-phone me-3"></i>1-555-123-4567</p>
+                        <button class="btn btn-dark btn-md" data-bs-toggle="modal" data-bs-target="#started">Contact</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="container border-top py-3">
+            <p class="my-2">Copyright &copy; 2025 Digital Creations</p>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="started" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-tital" id="enrollLabel">Tell us about your project</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Leave us a message and we will get back to you as soon as possible.</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="first-name" class="col-form-label">First Name:</label>
+                            <input type="text" class="form-control" id="first-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="last-name" class="col-form-label">Last Name:</label>
+                            <input type="text" class="form-control" id="last-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">Email:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="col-form-label">Phone</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="textarea" class="col-form-label">Message</label>
+                            <textarea class="form-control" id="textarea" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-success btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="nav.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
